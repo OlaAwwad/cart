@@ -24,7 +24,7 @@
                          </jar>
                 </target>
                 
-                  <target name="compile-testcases" depends="compile">
+<!--                   <target name="compile-testcases" depends="compile">
         <mkdir dir="${result.testclasses.dir}"/>
         <javac srcdir="${src.test.dir}"  destdir="${result.testclasses.dir}" debug="true" includeantruntime="false">
             <classpath>
@@ -52,7 +52,7 @@
             
         </junit>
     </target>
-    
+     -->
                 
                 
                 
